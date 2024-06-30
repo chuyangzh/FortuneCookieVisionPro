@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBDCB1D2C31D09B0055BC9E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DDBDCB1C2C31D09B0055BC9E /* RealityKitContent */; };
+		DDBDCB1F2C31D09B0055BC9E /* FortuneCookieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB1E2C31D09B0055BC9E /* FortuneCookieApp.swift */; };
+		DDBDCB212C31D09B0055BC9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB202C31D09B0055BC9E /* ContentView.swift */; };
+		DDBDCB232C31D09B0055BC9E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB222C31D09B0055BC9E /* ImmersiveView.swift */; };
+		DDBDCB252C31D09C0055BC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB242C31D09C0055BC9E /* Assets.xcassets */; };
+		DDBDCB282C31D09C0055BC9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB272C31D09C0055BC9E /* Preview Assets.xcassets */; };
+		DDBDCB332C31D09C0055BC9E /* FortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB322C31D09C0055BC9E /* FortuneCookieTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDBDCB2F2C31D09C0055BC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDBDCB0F2C31D09B0055BC9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDBDCB162C31D09B0055BC9E;
+			remoteInfo = FortuneCookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDBDCB172C31D09B0055BC9E /* FortuneCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBDCB1B2C31D09B0055BC9E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DDBDCB1E2C31D09B0055BC9E /* FortuneCookieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieApp.swift; sourceTree = "<group>"; };
+		DDBDCB202C31D09B0055BC9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDBDCB222C31D09B0055BC9E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		DDBDCB242C31D09C0055BC9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBDCB272C31D09C0055BC9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDBDCB292C31D09C0055BC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBDCB2E2C31D09C0055BC9E /* FortuneCookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBDCB322C31D09C0055BC9E /* FortuneCookieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBDCB142C31D09B0055BC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDCB1D2C31D09B0055BC9E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBDCB2B2C31D09C0055BC9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBDCB0E2C31D09B0055BC9E = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB192C31D09B0055BC9E /* FortuneCookie */,
+				DDBDCB1A2C31D09B0055BC9E /* Packages */,
+				DDBDCB312C31D09C0055BC9E /* FortuneCookieTests */,
+				DDBDCB182C31D09B0055BC9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBDCB182C31D09B0055BC9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB172C31D09B0055BC9E /* FortuneCookie.app */,
+				DDBDCB2E2C31D09C0055BC9E /* FortuneCookieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBDCB192C31D09B0055BC9E /* FortuneCookie */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB1E2C31D09B0055BC9E /* FortuneCookieApp.swift */,
+				DDBDCB202C31D09B0055BC9E /* ContentView.swift */,
+				DDBDCB222C31D09B0055BC9E /* ImmersiveView.swift */,
+				DDBDCB242C31D09C0055BC9E /* Assets.xcassets */,
+				DDBDCB292C31D09C0055BC9E /* Info.plist */,
+				DDBDCB262C31D09C0055BC9E /* Preview Content */,
+			);
+			path = FortuneCookie;
+			sourceTree = "<group>";
+		};
+		DDBDCB1A2C31D09B0055BC9E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB1B2C31D09B0055BC9E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		DDBDCB262C31D09C0055BC9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB272C31D09C0055BC9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDBDCB312C31D09C0055BC9E /* FortuneCookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDCB322C31D09C0055BC9E /* FortuneCookieTests.swift */,
+			);
+			path = FortuneCookieTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBDCB162C31D09B0055BC9E /* FortuneCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBDCB362C31D09C0055BC9E /* Build configuration list for PBXNativeTarget "FortuneCookie" */;
+			buildPhases = (
+				DDBDCB132C31D09B0055BC9E /* Sources */,
+				DDBDCB142C31D09B0055BC9E /* Frameworks */,
+				DDBDCB152C31D09B0055BC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneCookie;
+			packageProductDependencies = (
+				DDBDCB1C2C31D09B0055BC9E /* RealityKitContent */,
+			);
+			productName = FortuneCookie;
+			productReference = DDBDCB172C31D09B0055BC9E /* FortuneCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDBDCB2D2C31D09C0055BC9E /* FortuneCookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBDCB392C31D09C0055BC9E /* Build configuration list for PBXNativeTarget "FortuneCookieTests" */;
+			buildPhases = (
+				DDBDCB2A2C31D09C0055BC9E /* Sources */,
+				DDBDCB2B2C31D09C0055BC9E /* Frameworks */,
+				DDBDCB2C2C31D09C0055BC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDBDCB302C31D09C0055BC9E /* PBXTargetDependency */,
+			);
+			name = FortuneCookieTests;
+			productName = FortuneCookieTests;
+			productReference = DDBDCB2E2C31D09C0055BC9E /* FortuneCookieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBDCB0F2C31D09B0055BC9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDBDCB162C31D09B0055BC9E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DDBDCB2D2C31D09C0055BC9E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDBDCB162C31D09B0055BC9E;
+					};
+				};
+			};
+			buildConfigurationList = DDBDCB122C31D09B0055BC9E /* Build configuration list for PBXProject "FortuneCookie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBDCB0E2C31D09B0055BC9E;
+			productRefGroup = DDBDCB182C31D09B0055BC9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBDCB162C31D09B0055BC9E /* FortuneCookie */,
+				DDBDCB2D2C31D09C0055BC9E /* FortuneCookieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBDCB152C31D09B0055BC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDCB282C31D09C0055BC9E /* Preview Assets.xcassets in Resources */,
+				DDBDCB252C31D09C0055BC9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBDCB2C2C31D09C0055BC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBDCB132C31D09B0055BC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDCB212C31D09B0055BC9E /* ContentView.swift in Sources */,
+				DDBDCB1F2C31D09B0055BC9E /* FortuneCookieApp.swift in Sources */,
+				DDBDCB232C31D09B0055BC9E /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBDCB2A2C31D09C0055BC9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBDCB332C31D09C0055BC9E /* FortuneCookieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDBDCB302C31D09C0055BC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDBDCB162C31D09B0055BC9E /* FortuneCookie */;
+			targetProxy = DDBDCB2F2C31D09C0055BC9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDBDCB342C31D09C0055BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		DDBDCB352C31D09C0055BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		DDBDCB372C31D09C0055BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyruszhang.FortuneCookie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		DDBDCB382C31D09C0055BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyruszhang.FortuneCookie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		DDBDCB3A2C31D09C0055BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyruszhang.FortuneCookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneCookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneCookie";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		DDBDCB3B2C31D09C0055BC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyruszhang.FortuneCookieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneCookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneCookie";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBDCB122C31D09B0055BC9E /* Build configuration list for PBXProject "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDCB342C31D09C0055BC9E /* Debug */,
+				DDBDCB352C31D09C0055BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBDCB362C31D09C0055BC9E /* Build configuration list for PBXNativeTarget "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDCB372C31D09C0055BC9E /* Debug */,
+				DDBDCB382C31D09C0055BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBDCB392C31D09C0055BC9E /* Build configuration list for PBXNativeTarget "FortuneCookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBDCB3A2C31D09C0055BC9E /* Debug */,
+				DDBDCB3B2C31D09C0055BC9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDBDCB1C2C31D09B0055BC9E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDBDCB0F2C31D09B0055BC9E /* Project object */;
+}
