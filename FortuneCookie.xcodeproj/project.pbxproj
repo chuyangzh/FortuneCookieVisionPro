@@ -14,6 +14,14 @@
 		DDBDCB252C31D09C0055BC9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB242C31D09C0055BC9E /* Assets.xcassets */; };
 		DDBDCB282C31D09C0055BC9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB272C31D09C0055BC9E /* Preview Assets.xcassets */; };
 		DDBDCB332C31D09C0055BC9E /* FortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB322C31D09C0055BC9E /* FortuneCookieTests.swift */; };
+		DDBDCB3D2C3224A20055BC9E /* dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB3C2C3224A20055BC9E /* dice.usdz */; };
+		DDBDCB3F2C33502A0055BC9E /* studio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB3E2C33502A0055BC9E /* studio.skybox */; };
+		DDBDCB412C34725D0055BC9E /* dice.scn in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB402C34725D0055BC9E /* dice.scn */; };
+		DDBDCB432C34A7CF0055BC9E /* Fortune_Cookie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB422C34A7CF0055BC9E /* Fortune_Cookie.usdz */; };
+		DDBDCB452C34A7E20055BC9E /* Fortune_Cookie.scn in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB442C34A7E20055BC9E /* Fortune_Cookie.scn */; };
+		DDBDCB472C34BB5A0055BC9E /* Fortune_Cookie copy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB462C34BB5A0055BC9E /* Fortune_Cookie copy.usdz */; };
+		DDBDCB492C34BB7A0055BC9E /* Fortune_Cookie copy.scn in Resources */ = {isa = PBXBuildFile; fileRef = DDBDCB482C34BB7A0055BC9E /* Fortune_Cookie copy.scn */; };
+		DDBDCB4B2C352B790055BC9E /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDCB4A2C352B790055BC9E /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,14 @@
 		DDBDCB292C31D09C0055BC9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDBDCB2E2C31D09C0055BC9E /* FortuneCookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBDCB322C31D09C0055BC9E /* FortuneCookieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieTests.swift; sourceTree = "<group>"; };
+		DDBDCB3C2C3224A20055BC9E /* dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = dice.usdz; path = ../../app_assets/dice.usdz; sourceTree = "<group>"; };
+		DDBDCB3E2C33502A0055BC9E /* studio.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = studio.skybox; sourceTree = "<group>"; };
+		DDBDCB402C34725D0055BC9E /* dice.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = dice.scn; path = ../../app_assets/dice.scn; sourceTree = "<group>"; };
+		DDBDCB422C34A7CF0055BC9E /* Fortune_Cookie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Fortune_Cookie.usdz; path = ../../app_assets/Fortune_Cookie.usdz; sourceTree = "<group>"; };
+		DDBDCB442C34A7E20055BC9E /* Fortune_Cookie.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Fortune_Cookie.scn; path = ../../app_assets/Fortune_Cookie.scn; sourceTree = "<group>"; };
+		DDBDCB462C34BB5A0055BC9E /* Fortune_Cookie copy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Fortune_Cookie copy.usdz"; path = "../../app_assets/Fortune_Cookie copy.usdz"; sourceTree = "<group>"; };
+		DDBDCB482C34BB7A0055BC9E /* Fortune_Cookie copy.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "Fortune_Cookie copy.scn"; path = "../../app_assets/Fortune_Cookie copy.scn"; sourceTree = "<group>"; };
+		DDBDCB4A2C352B790055BC9E /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +96,20 @@
 		DDBDCB192C31D09B0055BC9E /* FortuneCookie */ = {
 			isa = PBXGroup;
 			children = (
+				DDBDCB3E2C33502A0055BC9E /* studio.skybox */,
 				DDBDCB1E2C31D09B0055BC9E /* FortuneCookieApp.swift */,
 				DDBDCB202C31D09B0055BC9E /* ContentView.swift */,
 				DDBDCB222C31D09B0055BC9E /* ImmersiveView.swift */,
 				DDBDCB242C31D09C0055BC9E /* Assets.xcassets */,
+				DDBDCB462C34BB5A0055BC9E /* Fortune_Cookie copy.usdz */,
+				DDBDCB482C34BB7A0055BC9E /* Fortune_Cookie copy.scn */,
+				DDBDCB422C34A7CF0055BC9E /* Fortune_Cookie.usdz */,
+				DDBDCB442C34A7E20055BC9E /* Fortune_Cookie.scn */,
+				DDBDCB3C2C3224A20055BC9E /* dice.usdz */,
+				DDBDCB402C34725D0055BC9E /* dice.scn */,
 				DDBDCB292C31D09C0055BC9E /* Info.plist */,
 				DDBDCB262C31D09C0055BC9E /* Preview Content */,
+				DDBDCB4A2C352B790055BC9E /* QuoteModel.swift */,
 			);
 			path = FortuneCookie;
 			sourceTree = "<group>";
@@ -198,8 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBDCB412C34725D0055BC9E /* dice.scn in Resources */,
 				DDBDCB282C31D09C0055BC9E /* Preview Assets.xcassets in Resources */,
+				DDBDCB3D2C3224A20055BC9E /* dice.usdz in Resources */,
+				DDBDCB472C34BB5A0055BC9E /* Fortune_Cookie copy.usdz in Resources */,
+				DDBDCB432C34A7CF0055BC9E /* Fortune_Cookie.usdz in Resources */,
 				DDBDCB252C31D09C0055BC9E /* Assets.xcassets in Resources */,
+				DDBDCB452C34A7E20055BC9E /* Fortune_Cookie.scn in Resources */,
+				DDBDCB492C34BB7A0055BC9E /* Fortune_Cookie copy.scn in Resources */,
+				DDBDCB3F2C33502A0055BC9E /* studio.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +250,7 @@
 			files = (
 				DDBDCB212C31D09B0055BC9E /* ContentView.swift in Sources */,
 				DDBDCB1F2C31D09B0055BC9E /* FortuneCookieApp.swift in Sources */,
+				DDBDCB4B2C352B790055BC9E /* QuoteModel.swift in Sources */,
 				DDBDCB232C31D09B0055BC9E /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
