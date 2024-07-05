@@ -47,7 +47,7 @@ struct ImmersiveView: View {
                let enivronment = try? await EnvironmentResource(named: "studio") {
                 cookie.scale = [2, 2, 2]
                 cookie.position.y = 0.5
-                cookie.position.z = -1
+                cookie.position.z = -1.5
                 
                 cookie.generateCollisionShapes(recursive: false)
                 cookie.components.set(InputTargetComponent())

@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 class QuoteModel: ObservableObject {
-    @Published var quoteText: String = "Shake the cookie to reveal your fortune!"
+    @Published var quoteText: String = "Toss the cookie to reveal your fortune!"
 }
